@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	background-color: white;
+}
+body {
+	color: green;
+	background-color: whitesmoke;
+	border-width: 1px;
+	border-color: ;
+	border-style: solid;
+	border-radius: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../image/green_bgi.jpeg");
+	background-size: 100%;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	height: 2rem;
+	margin-bottom: 1rem;
+	justify-content: space-around;
+}
+ul a {
+	text-decoration: none;
+	color: green;
+	padding: 0.5rem 5rem;
+}
+ul a:hover {
+	background-color: green;
+	color: white;
+}
+section {
+	box-shadow: 0.5rem 8px 20px rgba(0,0,0,0.75);
+	background-color: white;
+	height: 75%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border-width: 1px;
+	border-color: blue;
+	
+}
+.portifolio {
+	font-size: 72px;
+	text-align: center;
+}
+.projects {
+	color: white;
+	background-color: green;
+	padding: 3rem 3rem;
+	display: inline-block;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 100px;
+	
+}
+.project :hover {
+	border-color: #0066d3;
+}
+
+#video {
+	position: relative;
+	top: 2rem;
+	left: 1rem;
+}
+#graphics {
+	position: relative;
+	top: 10rem;
+}
+#Frontend {
+	position: relative;
+	top: 2rem;
+}
+
+	
+

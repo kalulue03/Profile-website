@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Page</title>
+	<style>
+		body {
+			display: block;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-image: url("../image/green_bgi.jpeg");
+			background-size: 100%;
+			color: green;
+		}
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	height: 2rem;
+	margin-bottom: 1rem;
+	justify-content: space-around;
+}
+ul a {
+	text-decoration: none;
+	color: green;
+	padding: 0.5rem 5rem;
+}
+ul a:hover {
+	background-color: green;
+	color: white;
+}
+		form {
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			text-align: center;
+		}
+		input, textarea {
+			diplay: block;
+			
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="./homepage.html">Home</a></li>
+			<li><a href="about_me.html">About Me</a></li>
+			<li><a href="Portifolio.html">Portifolio</a></li>
+			<li><a href="contactform.html">Contact</a></li>
+			<li><a href="survey.html">Survey</a></li>
+		</ul>
+	</nav>
+    <h1>Survey Page</h1>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

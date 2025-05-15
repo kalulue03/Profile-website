@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	background-image: url("../image/video_bgi.jpeg");
+	background-size: 48%;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	height: 2rem;
+	margin-bottom: 1rem;
+	justify-content: space-around;
+}
+ul a {
+	text-decoration: none;
+	color: green;
+	padding: 0.5rem 6.5rem;
+}
+ul a:hover {
+	background-color: green;
+	color: white;
+}
+.contact {
+	background-color: green;
+	color: white;
+	border-width: 1px;
+	border-radius: 8px;
+	height: 80%;
+	width: 100%;
+	font-size: 2rem;
+	box-shadow: 0.5rem 0.5rem 0.1rem 75% black;
+
+}
+
+.form {
+	margin: 0rem 0rem 2em 0rem;
+}
+
+.form input {
+	width: 75%;
+	height: 3em;
+}
+textarea {
+	width: 536px;
+	height: 125px;
+}
+button {
+	width: 100px;
+	height: 20px;
+}
+
