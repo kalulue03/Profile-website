@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Portifolio</title>
+		<link rel="stylesheet" href="../css/home.css">
+		<meta></meta>
+	</head>
+	<body onload="displayGreeting()">
+		<nav>
+			<ul>
+				<li><a href="./homepage.html">Home</a></li>
+				<li><a href="about_me.html">About Me</a></li>
+				<li><a href="Portifolio.html">Portifolio</a></li>
+				<li><a href="contactform.html">Contact</a></li>
+				<li><a href="survey.html">Survey</a></li>
+				<li><button id="theme-toggle" onclick="toggleTheme()">Change Theme</button></li>
+			</ul>
+		</nav>
+			<h1 id="greeting"></h1>
+		<header>
+			<h1>Welcome to my profile</h1>
+		</header>
+		<section>
+			<p>Showcasing my ability as an aspiring learner.</p>
+		</section>
+		<footer>
+			<small>copyright @202x All right reserved.</small>
+		</footer>
+		<script>
+			function toggleTheme(){
+				document.body.classList.toggle("light-mode");
+			}
+			
+			function displayGreating(){
+				let greetingText=document.getElementById("greeting");
+				let currentHour=new Date().getHours();
+
+				if(currentHour < 12){
+					greetingText.textContent="Good morning!";
+				}else if(currentHour < 18){
+					greetingText.textContent="Good afternoon!";
+				}else{
+					greetingText.textContent="Good evening!";
+				}
+			}
+		</script>
+	</body>
+</html>
+		
